@@ -1,0 +1,82 @@
+@import "../rbFormalStyle/rbFormalStyle.scss";
+@font-face {
+    font-family: "Font Awesome 5 Free";
+  }
+//  .rb-long-bg-h-signUp{
+//      height: 110vh;
+//  }
+
+// label {
+//     color:#1270B6;
+// }
+// .circle {
+//     height: 1px;
+//     width: 100%;
+// }
+// .ba {
+//     background-image: black;
+
+// }
+// .ss {
+//     display:inline-block;
+// }
+// .cir {
+//     width: 75px;
+//     height: 75px;
+//     border-radius: 50%;
+//     border:1px solid gray;
+//     display:inline-block;
+//     text-align: center;
+//     background: white;
+// }
+// .mph6 {
+//     margin-top:25px;
+// }
+
+.rb-checkout-list {
+  border: 1px solid rgba($pcolor, 0.09);
+  padding: 10px;
+}
+
+.rb-memberCenter {
+  border-bottom: 1px solid rgba($pcolor, 0.1);
+  padding: 5px 20px;
+  margin: 5px 10px;
+  .rb-memberCenterImg {
+    width: 50px;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .rb-memberName {
+    // overflow : hidden;
+    // text-overflow : ellipsis;
+    // white-space : nowrap;
+    // width : 240px;
+    // height: 100px;
+  }
+  .rb-memCenter-quit {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: rgba($pcolor, 0.5);
+    transition: 0.1s;
+    &:hover {
+      color: rgba($pcolor, 1);
+    }
+  }
+}
+
+.rb-memberCenterIcon {
+    &:after{
+        display: block;
+        content: "";
+        height: 1px;
+        width: 50px;
+        background-color: $pcolor;
+        margin:10px auto;
+    }
+ i{
+     font-size: 1.5rem;
+ }
+}

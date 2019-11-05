@@ -1,0 +1,193 @@
+@import "../rbFormalStyle/rbFormalStyle.scss";
+
+.rb-detiail {
+  .product-name {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba($pcolor, 0.2);
+  }
+  .product-title {
+    font-weight: bold;
+  }
+  @media screen and (max-width: 996px) {
+    .preview {
+      margin-bottom: 20px;
+    }
+  }
+
+  .detail-pic {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+
+  .tab-content {
+    overflow: hidden;
+    .tab-pane {
+      width: 100%;
+      -webkit-animation-name: opacity;
+      animation-name: opacity;
+      -webkit-animation-duration: 0.3s;
+      animation-duration: 0.3s;
+    }
+  }
+
+  .detail-pic {
+    height: 450px;
+    object-fit: cover;
+  }
+
+  @media screen and (min-width: 997px) {
+    .wrapper {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  }
+
+  .colors {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+
+  .product-price {
+    span {
+      color: #909090;
+      font-size: 14px;
+      text-decoration: line-through;
+    }
+  }
+
+  .rb-price-special {
+    vertical-align: middle;
+    span {
+      font-size: 50px;
+      color: $primaryColor;
+    }
+  }
+  /*TAB 區塊*/
+  .rb-tab {
+    nav > .nav.nav-tabs {
+      border: none;
+      color: $white;
+      background: $primaryColor2;
+      border-radius: 0;
+    }
+    nav > div a.nav-item.nav-link,
+    nav > div a.nav-item.nav-link.active {
+      border: none;
+      padding: 18px 25px;
+      color: $white;
+      background: $primaryColor2;
+      border-radius: 0;
+    }
+
+    nav > div a.nav-item.nav-link.active:after {
+      content: "";
+      position: relative;
+      bottom: -60px;
+      left: -10%;
+      border: 15px solid transparent;
+      border-top-color: $primaryColor;
+    }
+    .tab-content {
+      background: #fdfdfd;
+      line-height: 25px;
+      border: 1px solid #ddd;
+      border-top: 5px solid $primaryColor;
+      border-bottom: 5px solid $primaryColor;
+      padding: 30px 25px;
+    }
+
+    nav > div a.nav-item.nav-link:hover,
+    nav > div a.nav-item.nav-link:focus {
+      border: none;
+      background: $primaryColor;
+      color: #fff;
+      border-radius: 0;
+      transition: background 0.2s linear;
+    }
+    .tab-pane p{
+      padding-left:20px;
+    }
+
+  }
+}
+
+.number-spinner {
+  max-width: 150px;
+  line-height: 40px;
+  padding: 0;
+  margin: 0;
+  border-radius: 4px;
+  border: 2px solid #e2e2e2;
+  overflow: hidden;
+  position: relative;
+  display: table;
+  input {
+    height: 40px;
+    max-height: 40px;
+    line-height: 40px;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    border: none;
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    &:focus {
+      outline: none;
+    }
+  }
+  .ns-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+    cursor: pointer;
+    a {
+      height: 40px;
+      min-height: 40px;
+      width: 40px;
+      padding: 0;
+      max-width: 40px;
+      line-height: 40px;
+      border-radius: 0;
+      border: none;
+      text-align: center;
+      position: relative;
+      background: #e2e2e2;
+      color: #333;
+      display: inline-block;
+      vertical-align: middle;
+      text-decoration: none;
+    }
+    .icon-minus:after {
+      content: "\002212";
+      font-size: 35px;
+      line-height: 38px;
+      font-weight: bold;
+    }
+    .icon-plus:after {
+      content: "\00002B";
+      font-size: 38px;
+      line-height: 35px;
+      font-weight: bold;
+    }
+  }
+}
+.rb-product-size-color {
+  .col-6 {
+    padding: 0;
+
+    label {
+      background: $primaryColor2;
+    }
+  }
+}

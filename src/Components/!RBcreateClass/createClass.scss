@@ -1,0 +1,22 @@
+
+@import '../rbFormalStyle/rbFormalStyle.scss';
+
+.rb-createClass {
+  ol {
+    li {
+      padding-bottom: 10px;
+    }
+  }
+  .rb-themeBtn {
+    text-decoration: none;
+    border: 1px solid $primaryColor;
+    color: $primaryColor;
+    background-color: $white;
+    &:hover {
+      background: $primaryColor;
+      color: $white;
+      border:  1px solid $primaryColor;
+    }
+  }
+
+}

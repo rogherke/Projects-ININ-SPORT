@@ -1,0 +1,30 @@
+@import "../rbFormalStyle/rbFormalStyle.scss";
+
+.rb-long-bg-h-allshoppingcart {
+  // height: -moz-calc(100% - 300px);
+  // height: -webkit-calc(100% - 300px);
+  // height: calc(100%-300px);
+ 
+
+  .rb-tab {
+    i{
+      padding-right: 10px;
+    }
+  }
+}
+
+.memberModify {
+  label {
+    color: $pcolor;
+  }
+
+  .rb-right-title {
+    margin-top: 10px;
+
+    i {
+      color: $primaryColor;
+
+      margin-right: 10px;
+    }
+  }
+}

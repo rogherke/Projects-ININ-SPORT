@@ -1,0 +1,26 @@
+@import '../rbFormalStyle/rbFormalStyle.scss';
+
+.rb-claSearch{
+  background-color: rgba($pcolor , 0.1);
+ // border:1px solid rgba($pcolor , 0.2);
+  text-align: center;
+  width: 50rem;
+  height: 4rem;
+  padding:15px 0;
+  margin: 0 auto;
+  border-radius: 3rem;
+
+   .rb-Icon-search{
+        padding:10px;
+        color:$white;
+        background-color:rgba($primaryColor2 , 0.6); 
+        border-radius: 5rem;
+        margin-right:10px;
+
+   }
+    select{
+        width:22rem;
+        margin-right:10px;
+        display: inline-block;
+    }
+}

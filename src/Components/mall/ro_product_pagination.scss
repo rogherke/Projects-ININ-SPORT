@@ -1,0 +1,34 @@
+$primaryColor: #a3002d;
+$primaryColor2: #ff5a81;
+$secondColor: #02263c;
+$actioncolor: #a3002d;
+$fontcolor: #333;
+
+.ro_product5 {
+  margin-bottom: 7%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pic-1 {
+  object-fit: cover;
+}
+
+.product-new-label {
+  color: red;
+}
+
+.page-link {
+  color: #333;
+}
+.page-item.active .page-link {
+  background-color: $primaryColor;
+  border-color: $primaryColor;
+  //border:0px solid transparent;
+ outline: transparent!important;
+ 
+}
+.page-item {
+}

@@ -1,0 +1,186 @@
+$primaryColor: #a3002d;
+$primaryColor2: #ff5a81;
+$secondColor: #02263c;
+$thirdColor: #69f0d7;
+$fontcolor: #333;
+
+.rb-trainer {
+  color: $fontcolor;
+  background-image: linear-gradient(
+      rgba($thirdColor, 0.8),
+      rgba($thirdColor, 0.8)
+    ),
+    url("../../img/polybg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+
+  .rb-session-title {
+    display: block;
+    width: 100%;
+    color: $fontcolor;
+
+    &::after {
+      margin: 0 auto;
+      display: block;
+      height: 2px;
+      background-color: $fontcolor;
+      content: "";
+      width: 100px;
+      margin-top: 15px;
+    }
+  }
+
+  .rb-round-title {
+    top: 42%;
+    left: 35%;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: $primaryColor2;
+    border-color: $primaryColor2;
+    &:hover,
+    &:focus {
+      background-color: $primaryColor2;
+      border-color: $primaryColor2;
+      box-shadow: none;
+      outline: none;
+    }
+  }
+  section {
+    padding: 60px 0;
+    .section-title {
+      text-align: center;
+      color: $fontcolor;
+    }
+  }
+
+  .card {
+    border: none;
+    background: #ffffff;
+  }
+
+  .image-flip {
+    &:hover {
+      .backside {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+        border-radius: 0.25rem;
+      }
+    }
+  }
+
+  .image-flip {
+    &:hover {
+      .frontside {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+      }
+    }
+  }
+
+  .mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+
+  .frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+
+    .card{
+        .card-body {
+            img{
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        }
+    }
+  }
+
+  .backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+
+    .card{
+        a{
+            font-size: 18px;
+            color: $primaryColor;
+        }
+    }
+  }
+
+  .frontside,
+  .backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+
+
+    .card {
+      min-height: 312px;
+
+      .card-title{
+        color: $primaryColor;
+      }
+      .rb-themeBtn{
+          color: $primaryColor;
+          background-color: white;
+          border:1px solid $primaryColor;
+          &:hover{
+              background-color: $primaryColor;
+              color: #fff;
+
+          }
+      }
+    }
+  }
+  
+  
+  
+
+}
+
+
+
+
+

@@ -1,0 +1,34 @@
+
+@import '../rbFormalStyle/rbFormalStyle.scss';
+
+.rb-logIn{
+    label,p {
+        color: $pcolor;
+        
+    }
+    
+}
+
+.circle {
+    height: 1px;
+    width: 100%;
+}
+.ba {
+    background-image: -webkit-linear-gradient(left, $primaryColor 0%, $primaryColor2 50%, $primaryColor 100%);
+
+}
+.ss {
+    display:inline-block;
+}
+.cir {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:1px solid $primaryColor;
+    display:inline-block;
+    text-align: center;
+    background: white;
+}
+.mph6 {
+    margin-top:20px;
+}

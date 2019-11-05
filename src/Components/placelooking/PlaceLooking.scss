@@ -1,0 +1,18 @@
+
+@import '../rbFormalStyle/rbFormalStyle.scss';
+
+.map{
+  background-image: url("../../img/map.jpg");
+  height: 100%;
+  width: 100%;
+}
+.placeLooking{
+  height: 80vh;
+  .rb-search{
+    z-index: 9;
+    width:200px;
+    left:220px;
+    top:12px;
+  
+  }
+}

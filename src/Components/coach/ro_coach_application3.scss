@@ -1,0 +1,10 @@
+$primaryColor: #324e67;
+$transition: all 0.2s;
+
+.ge-classImg {
+    width: 200px;
+    img{
+      width: 100%;
+      object-fit: cover;
+    }
+  }

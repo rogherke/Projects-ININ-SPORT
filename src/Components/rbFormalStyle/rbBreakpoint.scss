@@ -1,0 +1,139 @@
+.rb-mobile-nav {
+  display: none;
+}
+.rb-mobile-Footer {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  .rb-bgIcon {
+    right: 15px;
+  }
+
+  .rb-nav {
+    display: none;
+  }
+  .rb-mobile-outline {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .rb-mobile-nav {
+    display: block;
+    z-index: 999;
+    .rb-mobileLogo {
+      width: 10rem;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  /*MAP*/
+  .rb-mobile-index-1 {
+    margin-top: 5rem;
+  }
+  .rb-mobile-account {
+    display: none;
+  }
+  .rb-mobile-map {
+    height: 40vh;
+    margin-bottom: 100px;
+  }
+  .col-lg-12 .rb-mobile-map-title {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .rb-search {
+    left: 250px;
+    top: 5.5rem;
+  }
+
+  /*推薦課程活動 index*/
+  .product-grid6 {
+    margin-bottom: 30px;
+  }
+
+  // .rb-col-md-12 {
+  //   width: 100% !important;
+  // }
+
+  /*見證圈圈*/
+
+  .rb-testimony {
+    h2.rb-round-title {
+      top: 42%;
+      left: 38%;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /*見證圈圈*/
+  .rb-testimony {
+    h2.rb-round-title {
+      top: 42%;
+      left: 35%;
+    }
+  }
+
+
+
+  /*footer*/
+  .rb-footer {
+    .rb-mobile-logo {
+      .rb-footer-logobrand {
+        display: none;
+      }
+    }
+  }
+  /*footer*/
+  .rb-footer,
+  .rb-foot-bottom {
+    display: none;
+  }
+  .rb-mobile-Footer {
+    display: block;
+  }
+  /*mobile footer*/
+  .rb-mobile-Footer {
+    background-color: #000017;
+    color: white;
+    i {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+  }
+  /*側邊按鈕*/
+  .rb-float-icon {
+    display: none;
+  }
+ 
+}
+
+@media only screen and (max-width: 576px) {
+  /*整體隱藏邊框*/
+  .rb-mobile-block {
+    overflow: hidden;
+  }
+  /*map*/
+  .rb-search {
+    left: 250px;
+    top: 5.5rem;
+  }
+
+  // /*footer*/
+  // .rb-footer,
+  // .rb-foot-bottom {
+  //   display: none;
+  // }
+  // .rb-mobile-Footer {
+  //   display: block;
+  // }
+  .rb-mob-round {
+    width: 50%;
+  }
+  /*文章方格*/
+  .product-grid6 {
+    margin: 0 20px;
+  }
+}

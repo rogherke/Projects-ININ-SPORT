@@ -1,0 +1,40 @@
+
+@import "../rbFormalStyle/rbFormalStyle.scss";
+
+
+.rb-favShoppingCar{
+ 
+    border-bottom: 1px solid rgba($pcolor, 0.09);
+    .rb-favStuffImg {
+        width: 6rem;
+        margin:0 auto;
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .rb-bk1{
+        width: 100%;
+        height: 100%;
+      
+    }
+
+
+
+
+
+
+}
+.rb-hoverLink{
+    text-decoration: underline;
+    transition: .1s;
+    text-decoration-color: rgba($pcolor, 0.2);
+    &:hover{
+        color: $pcolor;
+    }
+}
+
+.rb-bk2{
+    background-color: #3b4f61;
+}

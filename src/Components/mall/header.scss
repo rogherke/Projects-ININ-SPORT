@@ -1,0 +1,31 @@
+@import '../rbFormalStyle/rbFormalStyle.scss';
+
+.logobrand {
+    width: 45%;
+    padding-top: 20px;
+  }
+  .ro-nav-menu {
+      span{
+          margin:0 1px;
+      }
+      li {
+        letter-spacing: 0.2rem;
+        a {
+          color: #333;
+        }
+      }
+    }   
+    .magnifier-search{
+        justify-content: flex-end;
+        .input-border{
+            width:14%;
+            border:none;
+            border-bottom: 1.4px solid black;
+        }
+        .magnifier{
+        height: 30px;
+        width: 30px;    
+        }
+      }  
+  
+  

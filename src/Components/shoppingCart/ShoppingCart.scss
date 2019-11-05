@@ -1,0 +1,23 @@
+$primaryColor: #a3002d;
+$primaryColor2: #ff5a81;
+$secondColor: #02263c;
+$actioncolor: #a3002d;
+$fontcolor: #333;
+
+
+.rb-shoppingCart-bg {
+  height: 80vh;
+}
+.rb-shoppingCart  {
+    background-image: linear-gradient(
+        rgba(220, 20, 85, 0.8),
+        rgba(220, 20, 85, 0.8)
+      ),
+      url("../../img/polybg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    color: white;
+    height: 250px;
+}
+  

@@ -1,0 +1,23 @@
+@import "./ro_checkout-FormalStyle.scss";
+
+.ro-progress2{
+    &:nth-child(1):after{
+        background-color:$complete;
+    }
+}
+
+.rb-checkout2{
+    padding:15px 20px;
+    border: 1px solid rgba($pcolor, 0.09);
+    border-radius: 1rem;
+    margin: 10px 0;
+
+    fieldset{
+      span{
+         display: inline-block;
+         height: 10px;
+      } 
+      
+    }
+
+}

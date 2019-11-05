@@ -1,0 +1,9 @@
+@import "./ro_checkout-FormalStyle.scss";
+
+.ro-progress4{
+    &:nth-child(1):after,
+    &:nth-child(2):after,
+    &:nth-child(3):after{
+        background-color:$complete;
+    }
+}

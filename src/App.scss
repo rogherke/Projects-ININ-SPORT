@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body{
+  color: #333;
+  //font-family: 'Noto Sans', sans-serif;
+  font-family: "Microsoft JhengHei",sans-serif !important;
+  font-size: 16px;
+  letter-spacing: .5px;
+}
+// .rb-fixed-top{
+//   margin-top:8.5rem;
+// }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  outline: none!important;
+  box-shadow: 0;
+}
+
+*:focus {
+  outline: none!important;
+}
+
+*:active{
+  outline: none!important;
+  
+}

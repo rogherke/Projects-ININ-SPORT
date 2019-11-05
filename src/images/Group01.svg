@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.408 29.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #515050;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Group_101" data-name="Group 101" transform="translate(1.766 2.12)">
+    <line id="Line_32" data-name="Line 32" class="cls-1" x1="23.009" y2="24.387" transform="translate(0.354)"/>
+    <line id="Line_33" data-name="Line 33" class="cls-1" x2="68.142" transform="translate(0 25.7)"/>
+  </g>
+</svg>

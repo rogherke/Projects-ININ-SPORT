@@ -1,0 +1,124 @@
+$primaryColor: #a3002d;
+$primaryColor2: #ff5a81;
+$secondColor: #02263c;
+$fontcolor: #333;
+
+.rb-testimony {
+  color: $fontcolor;
+
+  .rb-session-title {
+    display: block;
+    width: 100%;
+    color: $fontcolor;
+
+    &::after {
+      margin: 0 auto;
+      display: block;
+      height: 2px;
+      background-color: $fontcolor;
+      content: "";
+      width: 100px;
+      margin-top: 15px;
+    }
+  }
+
+  .rb-round-title {
+    top: 42%;
+    left: 35%;
+  }
+}
+
+.our-team-main {
+  width: 100%;
+  height: auto;
+  border-bottom: 5px $primaryColor solid;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+  margin-bottom: 28px;
+
+  img{
+	border-radius: 50%;
+	margin-bottom: 20px;
+	width: 90px;
+  }
+
+  h3{
+	font-size: 20px;
+	font-weight: 700;
+  }
+  p {
+	margin-bottom: 0;
+  }
+  .team-back {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px 15px 0 15px;
+	text-align: left;
+	background: #fff;
+  }
+  .team-front {
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 10;
+	background: #fff;
+	padding: 15px;
+	bottom: 0px;
+	transition: all 0.5s ease;
+  }
+  &:hover{
+	border-color: $primaryColor2;
+	transition: 0.5s;
+	.team-front {
+		bottom: -205px;
+		transition: all 0.5s ease;
+	  }
+  }
+  
+}
+
+// @media only screen and (max-width: 1200px) {
+//   .rb-testimony
+//   h2 {
+//     font-size: 3rem;
+//   }
+//   h4{
+//     font-size:1.4rem;
+//   }
+
+// }
+
+// @media only screen and (max-width: 992px) {
+//   .rb-testimony
+//   h2 {
+//     font-size: 3rem;
+//   }
+//   h4{
+//     font-size:1.4rem;
+//   }
+
+// }
+
+// @media only screen and (max-width: 768px) {
+//   .rb-testimony{
+//     .col-lg-6{
+//       h2 {
+     
+//       }
+//     } 
+//   }  
+// }
+
+// @media only screen and (max-width: 576px) {
+//   .rb-testimony{
+//     display:none;
+//   }
+
+// }  

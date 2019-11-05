@@ -1,0 +1,166 @@
+@import "../rbFormalStyle/rbFormalStyle.scss";
+
+.rb-classTitle {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.rb-classItem {
+  margin: 10px 0;
+
+  &:after {
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 10px;
+    background-color: rgba($pcolor, 0.3);
+  }
+}
+
+.rb-cla-style {
+  .rb-cla-img {
+    overflow: hidden;
+    width: 300px;
+      height: 250px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 1rem;
+    }
+  }
+  .rb-class-block1 {
+    padding-top: 5px;
+    div {
+      margin: 2px 0;
+     
+    }
+  }
+  .rb-class-block2 {
+    background-color: rgba($pcolor, 0.1);
+    border-radius: 1rem;
+    padding-top: 10px;
+  }
+}
+.rb-classButton{
+
+    ul.socialIcons {
+       
+        li {
+          list-style: none;
+          display: inline-block;
+          border-radius: 2em;
+          overflow: hidden;
+          a {
+            display: block;
+            padding: 0.5em;
+            max-width: 2.3em;
+            min-width: 2.3em;
+            height: 2.3em;
+            white-space: nowrap;
+            line-height: 1.5em;
+            transition: 0.5s;
+            text-decoration: none;
+            font-family: arial;
+            color: #fff;
+          }
+          .rb-facebook {
+            margin-right: 0.8em;
+            padding-left: 0.4em;
+          }
+          .rb-heart{
+            margin-right: 0.6em;
+            padding-left: 0.2em;
+          }
+          &:hover {
+            a {
+              max-width: 200px;
+              padding-right: 1em;
+            }
+          }
+        }
+        .facebook {
+          background: $facebookBlue;
+        }
+        .rb-favStuff {
+            background: $primaryColor2;
+        }
+        
+      }
+      .switchToggle{
+          transform: translateY(-9px);
+      }
+      .switchToggle input[type="checkbox"] {
+        visibility: hidden;
+         
+      }
+      .switchToggle label {
+        cursor: pointer;
+        text-indent: -9999px;
+        width: 110px;
+        max-width: 110px;
+        //height: 30px;
+        height: 2.3em;
+        background: #d1d1d1;
+        display: block;
+        border-radius: 100px;
+        position: relative;
+      }
+      .switchToggle label:after {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        //width: 26px;
+        //height: 26px;
+        width: 2em;
+        height: 2em;
+        background: #fff;
+        border-radius: 90px;
+        transition: 0.3s;
+      }
+      .switchToggle input:checked + label,
+      .switchToggle input:checked + input + label {
+        background: $primaryColor;
+      }
+      .switchToggle input + label:before,
+      .switchToggle input + input + label:before {
+        content: "不參加";
+        position: absolute;
+        top: 5px;
+        left: 40px;
+        width: 100px;
+        height: 26px;
+        
+        border-radius: 90px;
+        transition: 0.3s;
+        text-indent: 0;
+        color: #fff;
+      }
+      .switchToggle input:checked + label:before,
+      .switchToggle input:checked + input + label:before {
+        content: "參加";
+        position: absolute;
+        top: 5px;
+        left: 20px;
+        width: 100px;
+        height: 26px;
+        border-radius: 90px;
+        transition: 0.3s;
+        text-indent: 0;
+        color: #fff;
+      }
+      .switchToggle input:checked + label:after,
+      .switchToggle input:checked + input + label:after {
+        left: calc(100% - 2px);
+        transform: translateX(-100%);
+      }
+      .switchToggle label:active:after {
+        width: 60px;
+      }
+      .toggle-switchArea {
+        margin: 10px 0 10px 0;
+      }
+
+}
+
