@@ -41,7 +41,7 @@
     "module_name": "^1.0.0",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.23",
-    "node-sass": "^4.10.0",
+    "node-sass": "^7.0.0",
     "nodemailer": "^4.7.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.1.0",
